@@ -1,0 +1,12 @@
+{
+  "name": "autonomous-studio-blog",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "node scripts/check-private.mjs posts",
+    "build": "node scripts/build.mjs"
+  },
+  "dependencies": {
+    "marked": "^14.1.4"
+  }
+}
